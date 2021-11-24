@@ -1,15 +1,15 @@
-# Created 2021-11-23 Tue 04:46
+# Created 2021-11-24 Wed 03:12
 #+title: shed
 SelfHostED
 #+results: 
-|---------+-----------------------------------------------------------------------------------------------------------------------|
-| name    | [[https://rwest.io/m#shed][shed]]                                                                                     |
-| version | alpha-0.1                                                                                                             |
-| vc      | [[https://hg.rwest.io/shed/rev/d1517402826d][67+:d1517402826d]], [[https://github.com/richardwesthaver/shed][github]] |
-| updated | 3 days ago                                                                                                            |
-| lines   | 1632 = λ:1369 #:132 _:131                                                                                             |
-| langs   | (Elisp Makefile Org Rust Toml)                                                                                        |
-|---------+-----------------------------------------------------------------------------------------------------------------------|
+|---------+----------------------------------------------------------------------------------------------------------------------|
+| name    | [[https://rwest.io/m#shed][shed]]                                                                                    |
+| version | alpha-0.1                                                                                                            |
+| vc      | [[https://hg.rwest.io/shed/rev/85d047c8a8d9][68:85d047c8a8d9]], [[https://github.com/richardwesthaver/shed][github]] |
+| updated | 62 minutes ago                                                                                                       |
+| lines   | 1634 = λ:1370 #:132 _:132                                                                                            |
+| langs   | (Elisp Makefile Org Rust Toml)                                                                                       |
+|---------+----------------------------------------------------------------------------------------------------------------------|
 
 #+results: 
 | includes | (readme.org makefile Cargo.toml build.rs rustfmt.toml lisp/ src/) |
@@ -21,7 +21,7 @@ SelfHostED
 | Cargo.toml   | 1.4K | 2021-11-11-00:11 |
 | lisp         |   14 | 2021-11-15-00:35 |
 | makefile     |  424 | 2021-11-21-23:25 |
-| readme.org   | 8.8K | 2021-11-23-03:21 |
+| readme.org   | 8.8K | 2021-11-23-04:46 |
 | rustfmt.toml |   52 | 2021-10-19-02:45 |
 | src          |  176 | 2021-11-22-00:05 |
 
