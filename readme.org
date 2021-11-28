@@ -1,12 +1,12 @@
-# Created 2021-11-24 Wed 03:12
+# Created 2021-11-28 Sun 03:47
 #+title: shed
 SelfHostED
 #+results: 
 |---------+----------------------------------------------------------------------------------------------------------------------|
 | name    | [[https://rwest.io/m#shed][shed]]                                                                                    |
 | version | alpha-0.1                                                                                                            |
-| vc      | [[https://hg.rwest.io/shed/rev/85d047c8a8d9][68:85d047c8a8d9]], [[https://github.com/richardwesthaver/shed][github]] |
-| updated | 62 minutes ago                                                                                                       |
+| vc      | [[https://hg.rwest.io/shed/rev/48ae146128be][69:48ae146128be]], [[https://github.com/richardwesthaver/shed][github]] |
+| updated | 4 days ago                                                                                                           |
 | lines   | 1634 = λ:1370 #:132 _:132                                                                                            |
 | langs   | (Elisp Makefile Org Rust Toml)                                                                                       |
 |---------+----------------------------------------------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@ SelfHostED
 | Cargo.toml   | 1.4K | 2021-11-11-00:11 |
 | lisp         |   14 | 2021-11-15-00:35 |
 | makefile     |  424 | 2021-11-21-23:25 |
-| readme.org   | 8.8K | 2021-11-23-04:46 |
+| readme.org   | 8.8K | 2021-11-24-03:12 |
 | rustfmt.toml |   52 | 2021-10-19-02:45 |
 | src          |  176 | 2021-11-22-00:05 |
 
