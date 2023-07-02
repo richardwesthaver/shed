@@ -3,9 +3,6 @@
 This program simply wraps a bunch of interpretted languages with a
 `rustyline` interface. It has feature flags which can be configured to
 match your gear, but will soon move to a runtime Config file setup.
-
-One of the note-worthy features of this program is a pure-Rust
-implementation of Python thanks to the `RustPython` crate.
 */
 use rlib::{
   kala::{
@@ -13,7 +10,7 @@ use rlib::{
       repl::{apl, bqn, dyalog, erl, k, lua, shakti},
       shell::emacsclient,
     },
-    dmc, python,
+    dmc,
   },
   logger::{flexi, log},
   util::Result,
@@ -29,8 +26,6 @@ async fn main() -> Result<()> {
     Some(i) => i,
     None => "dmc".to_string(),
   };
-  //      "python" | "py" => python::run(|_vm|{},opt,), // need to replace opt
-
   // this will be replaced with lookup against cfg
   match inter.as_str() {
     "apl" => {

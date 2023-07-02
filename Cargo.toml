@@ -1,4 +1,3 @@
-cargo-features = ["strip"]
 [package]
 name = "shed"
 version = "0.1.0"
@@ -14,7 +13,6 @@ default-run = "shc"
 
 [profile.release]
 lto = true
-strip = true
 panic = 'abort'
 codegen-units = 1
 
@@ -35,7 +33,7 @@ path = "src/bin/shd.rs"
 
 [dependencies]
 # rlib
-rlib = { version = "0.1.0", path = "../rlib", features = ["logger", "cli", "bs", "obj", "flate", "db", "net", "hg", "python", "dmc", "sys", "midi"] }
+rlib = { version = "0.1.0", path = "../rlib", features = ["logger", "cli", "bs", "obj", "flate", "db", "net", "hg", "dmc", "sys", "midi"] }
 tenex = { version = "0.1.0", path = "../tenex", features = ["ipapi", "nws", "google"] }
 # contrib
 serde = { version = "1.0.128", features = ["derive"] }

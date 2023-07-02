@@ -73,7 +73,7 @@ impl<'a> App<'a> {
         Config::load(cfg)?
       }
       None => {
-        let env = Path::new(env!("CFG")).join("shed.cfg");
+        let env = Path::new(&std::env::var("HOME").unwrap()).join(".config/shed/shed.cfg");
         if env.is_file() {
           Config::load(env)?
         } else {

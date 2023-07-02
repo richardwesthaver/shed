@@ -60,7 +60,7 @@ The created frame is selected when the hook is called."
   "List of current server clients.
 Each element is a process.")
 
-(defvar shed-cmd-server-port 62824
+(defvar shed-cmd-server-port 12000
   "port of the shed-status broadcaster")
 
 (defvar shed-cmd-server-clients '() 
