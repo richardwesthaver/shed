@@ -1,4 +1,4 @@
-x=https://vc.compiler.company/shed/xlib
+xlib=https://vc.compiler.company/shed/xlib
 wm=https://vc.compiler.company/shed/wm
 tenex=https://vc.compiler.company/shed/tenex
 gui=https://vc.compiler.company/shed/gui

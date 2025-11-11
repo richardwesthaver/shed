@@ -8,7 +8,7 @@
      (cb (:git "ssh://git@codeberg.org/c-c/shed"))
      (gh (:git "ssh://git@github.com/richardwesthaver/shed")))
 :rules
-((upstream
+((upstream ()
   (labels ((bump (name)
             (let ((path (directory-path (merge-pathnames name "/tmp/"))))
              (probe-delete-directory path :recursive t)
@@ -26,9 +26,9 @@
                (vc-submodule r :add :url "https://github.com/richardwesthaver/xlib")
                (vc-submodule r :add :url "https://github.com/richardwesthaver/wm")
                (vc-submodule r :add :url "https://github.com/richardwesthaver/tenex")
-               (vc-submodule r :add :url "https://github.com/richardwesthaver/gui")
-               (vc-submodule r :add :url "https://github.com/richardwesthaver/bbdb")
-               (vc-submodule r :add :url "https://github.com/richardwesthaver/edi")
+               ;; (vc-submodule r :add :url "https://github.com/richardwesthaver/gui")
+               ;; (vc-submodule r :add :url "https://github.com/richardwesthaver/bbdb")
+               ;; (vc-submodule r :add :url "https://github.com/richardwesthaver/edi")
                (vc-submodule r :add :url "https://github.com/richardwesthaver/basement")
                (vc-submodule r :add :url "https://github.com/richardwesthaver/attic")
                (vc-add r ".gitmodules")
