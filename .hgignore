@@ -1,0 +1,4 @@
+.*system-index.txt$
+.*[.](fasl|fsys)$
+.*[.]zst$
+[.]stash/.*
