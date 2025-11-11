@@ -3,10 +3,10 @@
 #+author: Richard Westhaver
 #+email: ellis@rwest.io
 Lisp extensions built on top of the =core=.
+- basement :: experiments
 - xlib :: X11 Library
 - wm :: X11-based Window Manager
-- gtk :: Gtk4 FFI Bindings
 - tenex :: HTTP Client APIs
-- bbdb :: Big Brother Database
-- graph :: Graph Store
-- edi :: Line Editor
+#+comment: - bbdb :: Big Brother Database
+#+comment: - edi :: Line Editor
+- attic :: archive
