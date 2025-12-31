@@ -1,6 +1,9 @@
+ironclad=https://vc.compiler.company/shed/ironclad
+ppcre=https://vc.compiler.company/shed/ppcre
 xlib=https://vc.compiler.company/shed/xlib
 wm=https://vc.compiler.company/shed/wm
 tenex=https://vc.compiler.company/shed/tenex
-gui=https://vc.compiler.company/shed/gui
 edi=https://vc.compiler.company/shed/edi
 bbdb=https://vc.compiler.company/shed/bbdb
+attic=https://vc.compiler.company/shed/attic
+basement=https://vc.compiler.company/shed/basement
