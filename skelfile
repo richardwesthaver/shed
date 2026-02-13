@@ -34,6 +34,8 @@
         (vc-submodule r :add :url "https://github.com/richardwesthaver/edi")
         (vc-submodule r :add :url "https://github.com/richardwesthaver/basement")
         (vc-submodule r :add :url "https://github.com/richardwesthaver/attic")
+        (vc-submodule r :add :url "https://github.com/richardwesthaver/ironclad")
+        (vc-submodule r :add :url "https://github.com/richardwesthaver/slime")
         (vc-add r ".gitmodules")
         (vc-commit r "gitmodules"))
        ;; (vc-push r :set-upstream t :remote "cb" :branch "default" :force t)
