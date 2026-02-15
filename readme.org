@@ -4,9 +4,11 @@
 #+email: ellis@rwest.io
 Lisp extensions built on top of the =core=.
 - basement :: experiments
-- xlib :: X11 Library
+- attic :: archive
+- vec :: vector graphs
+- xlib :: X11
 - wm :: X11-based Window Manager
 - tenex :: HTTP Client APIs
-#+comment: - bbdb :: Big Brother Database
-#+comment: - edi :: Line Editor
-- attic :: archive
+- bbdb :: Big Brother Database
+- edi :: Line Editor
+- slime :: Superior Lisp Interaction Mode for Emacs
