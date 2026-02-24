@@ -41,5 +41,8 @@
     (bump* (&rest subrepos)
      (dolist (s subrepos)
       (bump s))))
-   (bump* "xlib" "wm" "vec" "edi" "bbdb" "slime" "tenex" "attic" "basement" "shed"))))
+   (bump* "xlib" "wm" "vec" "edi" "bbdb" "slime" "tenex" "attic" "basement" "shed")))
+ (dist-source ()
+  (with-directory ".."
+   #$tar --exclude='*/.hg' --exclude='*/.stash' --exclude='#*#' -I 'zstd' -cf shed/shed.tar.zst shed/*$#)))
 
