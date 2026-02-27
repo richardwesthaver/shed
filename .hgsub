@@ -2,7 +2,6 @@ vec=https://vc.compiler.company/shed/vec
 xlib=https://vc.compiler.company/shed/xlib
 wm=https://vc.compiler.company/shed/wm
 tenex=https://vc.compiler.company/shed/tenex
-slime=https://vc.compiler.company/shed/slime
 edi=https://vc.compiler.company/shed/edi
 bbdb=https://vc.compiler.company/shed/bbdb
 attic=https://vc.compiler.company/shed/attic

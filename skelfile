@@ -33,7 +33,6 @@
         (vc-submodule r :add :url "https://github.com/richardwesthaver/edi")
         (vc-submodule r :add :url "https://github.com/richardwesthaver/basement")
         (vc-submodule r :add :url "https://github.com/richardwesthaver/attic")
-        (vc-submodule r :add :url "https://github.com/richardwesthaver/slime")
         (vc-add r ".gitmodules")
         (vc-commit r "gitmodules"))
        ;; (vc-push r :set-upstream t :remote "cb" :branch "default" :force t)
@@ -41,7 +40,7 @@
     (bump* (&rest subrepos)
      (dolist (s subrepos)
       (bump s))))
-   (bump* "xlib" "wm" "vec" "edi" "bbdb" "slime" "tenex" "attic" "basement" "shed")))
+   (bump* "xlib" "wm" "vec" "edi" "bbdb" "tenex" "attic" "basement" "shed")))
  (dist-source ()
   (with-directory ".."
    #$tar --exclude='*/.hg' --exclude='*/.stash' --exclude='#*#' -I 'zstd' -cf shed/shed.tar.zst shed/*$#)))
