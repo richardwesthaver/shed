@@ -1,0 +1,24 @@
+[submodule "xlib"]
+	path = xlib
+	url = https://github.com/richardwesthaver/xlib
+[submodule "wm"]
+	path = wm
+	url = https://github.com/richardwesthaver/wm
+[submodule "tenex"]
+	path = tenex
+	url = https://github.com/richardwesthaver/tenex
+[submodule "vec"]
+	path = vec
+	url = https://github.com/richardwesthaver/vec
+[submodule "bbdb"]
+	path = bbdb
+	url = https://github.com/richardwesthaver/bbdb
+[submodule "edi"]
+	path = edi
+	url = https://github.com/richardwesthaver/edi
+[submodule "basement"]
+	path = basement
+	url = https://github.com/richardwesthaver/basement
+[submodule "attic"]
+	path = attic
+	url = https://github.com/richardwesthaver/attic
